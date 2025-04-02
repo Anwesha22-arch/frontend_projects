@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debating ChatBot</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="chat-container">
+     
+        <div class="ai-chat-box">
+        <img src="ai.png" alt="" id="aiImage" width="70">
+        <div class="ai-chat-area">
+            Hello ! Let's start the debate.
+            <br>
+            Example: "The topic is Social Media and I am speaking for it."
+        
+            <img src="" alt="" class="load" width="50px">
+        </div>
+
+        </div>
+
+    </div>
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Enter debate topic and your stance (for/against)...">
+        <button id="submit"><img src="submit.png" alt="submit_btn"></button>
+        
+    </div>
+    <!--const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDRYUSJ694QKbN-Vga0KXNgyF3AP1GbOrY";-->
+    <script src="script.js"></script>
+</body>
+</html>
